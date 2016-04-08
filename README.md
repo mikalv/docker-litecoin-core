@@ -4,10 +4,13 @@ A litecoind docker image.
 
 [![uphold/litecoind][docker-pulls-image]][docker-hub-url] [![uphold/litecoind][docker-stars-image]][docker-hub-url] [![uphold/litecoind][docker-size-image]][docker-hub-url] [![uphold/litecoind][docker-layers-image]][docker-hub-url]
 
-## Supported tags and respective `Dockerfile` links
+## Supported tags
+- `0.14.2-alpine`, `0.14-alpine` ([0.14/alpine/Dockerfile](https://github.com/uphold/docker-litecoind/blob/master/0.14/alpine/Dockerfile))
+- `0.13.2-alpine`, `0.13-alpine` ([0.13/alpine/Dockerfile](https://github.com/uphold/docker-litecoind/blob/master/0.13/alpine/Dockerfile))
+- `0.10.4.0-alpine`, `0.10-alpine` ([0.10/alpine/Dockerfile](https://github.com/uphold/docker-litecoind/blob/master/0.10/alpine/Dockerfile))
 - `0.14.2`, `0.14`, `latest` ([0.14/Dockerfile](https://github.com/uphold/docker-litecoind/blob/master/0.14/Dockerfile))
-- `0.13.2`, `0.13`, `latest` ([0.13/Dockerfile](https://github.com/uphold/docker-litecoind/blob/master/0.13/Dockerfile))
-- `0.10.4`, `0.10` ([0.10/Dockerfile](https://github.com/uphold/docker-litecoind/blob/master/0.10/Dockerfile))
+- `0.13.2`, `0.13` ([0.13/Dockerfile](https://github.com/uphold/docker-litecoind/blob/master/0.13/Dockerfile))
+- `0.10.4.0`, `0.10` ([0.10/Dockerfile](https://github.com/uphold/docker-litecoind/blob/master/0.10/Dockerfile))
 
 ## What is litecoind?
 
@@ -62,6 +65,9 @@ Points to the latest release available of Litecoin Core. Occasionally pre-releas
 
 ### `uphold/litecoind:<version>`
 Based on a slim Debian image, targets a specific version branch or release of Litecoin Core (e.g. `0.13.2`, `0.13`).
+
+### `uphold/litecoind:<version>-alpine`
+Based on Alpine Linux with Berkeley DB 4.8 (cross-compatible build), targets a specific version branch or release of Litecoin Core.
 
 ## Supported Docker versions
 
